@@ -18,4 +18,3 @@ Users should be able to:
 - Flexbox
 - JavaSript
 
-# Interactive-rating-component

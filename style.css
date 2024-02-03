@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%) ;
+    color: hsl(0, 0%, 100%) ;
+    flex-direction: column;
+    font-family: "Overpass", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 27%;
+    padding: 17px;
+    background-color: #171E28;
+    border-radius: 30px;
+
+}
+
+
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color:262F38;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #28313A;
+    transition: 0,3s;
+
+}
+.number:hover{
+    background-color:hsl(217, 12%, 63%);
+    transform: translateY(-5px);
+}
+
+.button{
+    background-color: hsl(25, 97%, 53%) ;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.button:hover{
+    color: hsl(25, 97%, 53%) ;
+    background-color:white;
+}
+.active{
+    background-color: hsl(25, 97%, 53%) ;
+    color: white;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   justify-content: center;
+    width: 27%;
+    padding: 17px;
+    background-color: #171E28;
+    border-radius: 30px;
+
+}
+
+.rate{
+    margin-top: 30px;
+ background-color: #282C35;
+ padding: 10px;
+ border-radius: 30px;
+ color: hsl(25, 97%, 53%) ;
+
+}
+
+
+.hide{
+    display: none;
+}
+
+.attribution{
+    margin-top: 100PX;
+}
